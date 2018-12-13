@@ -24,7 +24,7 @@ void init(void)
 {
 	glClearColor(1.0, 1.0, 1.0, 0.0);
 	glShadeModel(GL_SMOOTH);
-	glMap1f(GL_MAP1_VERTEX_3, 0.0, 1.0, 3, 4, &ctrlpoints[0][0]);
+	glMap1f(GL_MAP1_VERTEX_3, 0.0, 1.0, 3, 4, &ctrlpoints[0][0]); //
 	glMap1f(GL_MAP1_COLOR_4, 0.0, 1.0, 4, 4, &colctrlpoints[0][0]);
 	glEnable(GL_MAP1_VERTEX_3);
 	glEnable(GL_MAP1_COLOR_4);
